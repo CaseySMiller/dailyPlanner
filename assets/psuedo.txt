@@ -1,0 +1,29 @@
+****this is wrongish... hard code time blocks*****
+
+******do this last******
+store current date to global variable
+    display current day in jumbotron
+store current time to global variable
+    display current time in jumbotron
+
+
+****do this first****
+>>check local storage for array of objects with "time", "content" properties for 9a-5p
+    >>if exists parse to global variable
+    >>else create global variable and push to localStorage
+        
+
+>create 12wide column
+    >>iterate array to rows for each time block
+        >>create function to display and populate a row for each block
+            >>each row gets a col-1 to left for time
+            >>each row gets a col-11 area to right for content
+ **do this**    text area color coded to demonstrate past/present/future
+            >>id of row set to "time"
+
+******4th*******
+create function to save text typed in content cells when save button clicked
+    save text to object array
+    save array to local storage
+    refresh page
+
