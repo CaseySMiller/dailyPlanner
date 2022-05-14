@@ -27,6 +27,7 @@ if (!contentArray) {
 //write saved event content to page and color code
 for (i=0; i < contentArray.length; i++) {
     contentEls[i].value = contentArray[i];
+    //color events area for past/present/future
     for (x = 0; x < contentEls.length; x++) {
         hourCheck = x + 9;
         if (hourCheck > currentHour) {
@@ -46,7 +47,6 @@ for (i=0; i < contentArray.length; i++) {
 $('#currentDay').text('Today is ' + todaysDate.toDateString());
 $('#currentTime').text('The current time is: ' + todaysDate.toTimeString());
 
-//color events area for past/present/future
 
 //write text area to array when save button is pressed
 $('.saveBtn').on('click', function() {
