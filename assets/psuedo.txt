@@ -22,8 +22,8 @@ store current time to global variable
             >>id of row set to "time"
 
 ******4th*******
-create function to save text typed in content cells when save button clicked
-    save text to object array
-    save array to local storage
-    refresh page
+>>create function to save text typed in content cells when save button clicked
+    >>save text to object array
+    >>save array to local storage
+    >>refresh page
 
